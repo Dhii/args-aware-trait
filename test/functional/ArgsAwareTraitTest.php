@@ -6,9 +6,10 @@ use ArrayIterator;
 use Traversable;
 use Xpmock\TestCase;
 use InvalidArgumentException;
+use Dhii\Invocation\ArgsAwareTrait as TestSubject;
 
 /**
- * Tests {@see \Dhii\Invocation\ArgsAwareTrait}.
+ * Tests {@see TestSubject}.
  *
  * @since [*next-version*]
  */
